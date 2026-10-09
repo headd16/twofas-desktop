@@ -1,0 +1,12 @@
+{
+  "identifier": "main",
+  "description": "Only the local main window may manage window chrome. Sensitive commands are native and validate all inputs.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-minimize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-close"
+  ]
+}
